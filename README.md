@@ -1,8 +1,15 @@
-# React + Vite
+# ReadLyst (Book Recommender)
+### Overview
+BookRecommender is a web application that suggests books based on user preferences and displays popular books. The application leverages a machine learning model to generate recommendations, and features a clean, responsive UI built with React. The backend is powered by Flask, which handles API requests and serves the recommendation engine.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Features
+- **Book Recommendations:** User can input book title to receive recommendations for similar books.
+- **Popular Books:** Displays a list of popular books based on pre-defined criteria
+- **Responsive Design:** The forntend is fully responsive and works accross different screen sizes.
+- **Backend-Frontend Integration:** A seamless integration between Flask backend and React frontend ensures real-time data fetching and display.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Tech Stack
+- **Frontend:** React, Tailwind CSS
+- **Backend:** Flask, Python
+- **Machine Learning:** Scikit-learn, Pandas, Numpy
+- **Database:** CSV files sourced from kaggle
